@@ -19,7 +19,7 @@ namespace Vue
             InitializeComponent();
             mgr = new Manager();
         }
-
+        //essaie de synchroniser git
         private  Manager mgr = null;
         private int choix = 0;
 
