@@ -4303,11 +4303,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#\\CSharpe\\Vue\\Controleur\\Controleur.csproj",
+      "projectUniqueName": "D:\\C#\\Vue\\Controleur\\Controleur.csproj",
       "projectName": "Controleur",
-      "projectPath": "D:\\C#\\CSharpe\\Vue\\Controleur\\Controleur.csproj",
+      "projectPath": "D:\\C#\\Vue\\Controleur\\Controleur.csproj",
       "packagesPath": "C:\\Users\\GreatA\\.nuget\\packages\\",
-      "outputPath": "D:\\C#\\CSharpe\\Vue\\Controleur\\obj\\",
+      "outputPath": "D:\\C#\\Vue\\Controleur\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\GreatA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4323,11 +4323,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\C#\\CSharpe\\Vue\\DAOMysql\\DAOMysql.csproj": {
-              "projectPath": "D:\\C#\\CSharpe\\Vue\\DAOMysql\\DAOMysql.csproj"
+            "D:\\C#\\Vue\\DAOMysql\\DAOMysql.csproj": {
+              "projectPath": "D:\\C#\\Vue\\DAOMysql\\DAOMysql.csproj"
             },
-            "D:\\C#\\CSharpe\\Vue\\Modele\\Modele.csproj": {
-              "projectPath": "D:\\C#\\CSharpe\\Vue\\Modele\\Modele.csproj"
+            "D:\\C#\\Vue\\Modele\\Modele.csproj": {
+              "projectPath": "D:\\C#\\Vue\\Modele\\Modele.csproj"
             }
           }
         }

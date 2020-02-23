@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#\\CSharpe\\Vue\\Modele\\Modele.csproj",
+      "projectUniqueName": "D:\\C#\\Vue\\Modele\\Modele.csproj",
       "projectName": "Modele",
-      "projectPath": "D:\\C#\\CSharpe\\Vue\\Modele\\Modele.csproj",
+      "projectPath": "D:\\C#\\Vue\\Modele\\Modele.csproj",
       "packagesPath": "C:\\Users\\GreatA\\.nuget\\packages\\",
-      "outputPath": "D:\\C#\\CSharpe\\Vue\\Modele\\obj\\",
+      "outputPath": "D:\\C#\\Vue\\Modele\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\GreatA\\AppData\\Roaming\\NuGet\\NuGet.Config",

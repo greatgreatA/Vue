@@ -4284,11 +4284,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#\\CSharpe\\Vue\\DAOMysql\\DAOMysql.csproj",
+      "projectUniqueName": "D:\\C#\\Vue\\DAOMysql\\DAOMysql.csproj",
       "projectName": "DAOMysql",
-      "projectPath": "D:\\C#\\CSharpe\\Vue\\DAOMysql\\DAOMysql.csproj",
+      "projectPath": "D:\\C#\\Vue\\DAOMysql\\DAOMysql.csproj",
       "packagesPath": "C:\\Users\\GreatA\\.nuget\\packages\\",
-      "outputPath": "D:\\C#\\CSharpe\\Vue\\DAOMysql\\obj\\",
+      "outputPath": "D:\\C#\\Vue\\DAOMysql\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\GreatA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4304,8 +4304,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\C#\\CSharpe\\Vue\\Modele\\Modele.csproj": {
-              "projectPath": "D:\\C#\\CSharpe\\Vue\\Modele\\Modele.csproj"
+            "D:\\C#\\Vue\\Modele\\Modele.csproj": {
+              "projectPath": "D:\\C#\\Vue\\Modele\\Modele.csproj"
             }
           }
         }
