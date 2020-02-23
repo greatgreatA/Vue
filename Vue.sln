@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAOMysql", "DAOMysql\DAOMys
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Controleur", "Controleur\Controleur.csproj", "{68B95056-A1C1-409C-8132-43F03234D2BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAOAccess", "DAOAccess\DAOAccess.csproj", "{E0C8CE6B-EDDF-4034-A707-2B7CF0548684}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{68B95056-A1C1-409C-8132-43F03234D2BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68B95056-A1C1-409C-8132-43F03234D2BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68B95056-A1C1-409C-8132-43F03234D2BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0C8CE6B-EDDF-4034-A707-2B7CF0548684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0C8CE6B-EDDF-4034-A707-2B7CF0548684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0C8CE6B-EDDF-4034-A707-2B7CF0548684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0C8CE6B-EDDF-4034-A707-2B7CF0548684}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
