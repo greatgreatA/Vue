@@ -41,7 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAOClient.cs" />
     <Compile Include="DAOCompte.cs" />
+    <Compile Include="DAOCompteLivret.cs" />
     <Compile Include="G_AccessConnexion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -23,7 +23,7 @@ namespace DAOAccess
         public List<Compte> selectAll()
         {
 
-            string req = "select * from compte left join comptelivret on compte.numCompte = comptelivret.numCompte left join client on compte.numClient=client.numero;";
+            string req = "select * from (compte left outer join comptelivret on compte.numCompte = comptelivret.numCompte ) left outer join client on compte.numClient=client.numero;";
             List<Compte> liste = new List<Compte>();
             maconx.openCx();
             OleDbCommand cd = maconx.commande(req);

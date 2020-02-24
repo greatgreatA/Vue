@@ -11,7 +11,7 @@ namespace DAOAccess
     public class G_AccessConnexion
     {
         private static G_AccessConnexion instance = null;
-        private string connexionString = "";
+        private string connexionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\\Users\\GreatA\\Documents\\gestioncomptes.mdb";
         private OleDbConnection conx=null;
 
         private static readonly object mylock = new object();

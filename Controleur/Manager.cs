@@ -1,7 +1,8 @@
 ﻿using Modele;
 using System;
 using System.Collections.Generic;
-using DAOMysql;
+using DAOAccess;
+
 namespace Controleur
 {
     public class Manager
