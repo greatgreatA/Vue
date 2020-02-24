@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using MySql.Data.MySqlClient;
 using System.Text;
 using Modele;
-using MySql.Data.MySqlClient;
 
-namespace DAOmysql
+namespace DAOMysql
 {
     public class DAOClient : BaseDao<Client>
     {
@@ -19,7 +19,7 @@ namespace DAOmysql
             string req = "SELECT * FROM " + nomTable + " ;";
             List<Client> liste = new List<Client>();
             maconx.openCx();
-            MySqlCommand cd = maconx.uneCommande(req);
+            MySqlCommand cd = maconx.commande(req);
             MySqlDataReader reader = cd.ExecuteReader();
             Client client = null;
             while (reader.Read())
@@ -43,7 +43,7 @@ namespace DAOmysql
         {
             string req = "UPDATE " + nomTable + " SET numero=" + c.NumeroClient + ", nom=\"" + c.NomClient + "\", prenom= \"" + c.PrenomClient + "\",adresse=\"" + c.Adresse + "\" WHERE numero=" + c.NumeroClient + ";";
             maconx.openCx();
-            MySqlCommand cd = maconx.uneCommande(req);
+            MySqlCommand cd = maconx.commande(req);
             int i =cd.ExecuteNonQuery();
             maconx.closeCx();
         }

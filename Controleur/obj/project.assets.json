@@ -26,16 +26,16 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "DAOAccess/1.0.0": {
+      "DAOMysql/1.0.0": {
         "type": "project",
         "dependencies": {
           "Modele": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAOAccess.dll": {}
+          "bin/placeholder/DAOMysql.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAOAccess.dll": {}
+          "bin/placeholder/DAOMysql.dll": {}
         }
       },
       "Modele/1.0.0": {
@@ -195,10 +195,10 @@
         "netstandard.library.nuspec"
       ]
     },
-    "DAOAccess/1.0.0": {
+    "DAOMysql/1.0.0": {
       "type": "project",
-      "path": "../DAOAccess/DAOAccess.csproj",
-      "msbuildProject": "../DAOAccess/DAOAccess.csproj"
+      "path": "../Mysql/DAOMysql.csproj",
+      "msbuildProject": "../Mysql/DAOMysql.csproj"
     },
     "Modele/1.0.0": {
       "type": "project",
@@ -208,7 +208,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "DAOAccess >= 1.0.0",
+      "DAOMysql >= 1.0.0",
       "Modele >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
@@ -239,11 +239,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\C#\\Vue\\DAOAccess\\DAOAccess.csproj": {
-              "projectPath": "D:\\C#\\Vue\\DAOAccess\\DAOAccess.csproj"
-            },
             "D:\\C#\\Vue\\Modele\\Modele.csproj": {
               "projectPath": "D:\\C#\\Vue\\Modele\\Modele.csproj"
+            },
+            "D:\\C#\\Vue\\Mysql\\DAOMysql.csproj": {
+              "projectPath": "D:\\C#\\Vue\\Mysql\\DAOMysql.csproj"
             }
           }
         }

@@ -9,7 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "Controleur/1.0.0": {
         "dependencies": {
-          "DAOAccess": "1.0.0",
+          "DAOMysql": "1.0.0",
           "Modele": "1.0.0",
           "NETStandard.Library": "2.0.3"
         },
@@ -23,12 +23,12 @@
           "Microsoft.NETCore.Platforms": "1.1.0"
         }
       },
-      "DAOAccess/1.0.0": {
+      "DAOMysql/1.0.0": {
         "dependencies": {
           "Modele": "1.0.0"
         },
         "runtime": {
-          "DAOAccess.dll": {}
+          "Mysql.dll": {}
         }
       },
       "Modele/1.0.0": {
@@ -58,7 +58,7 @@
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
-    "DAOAccess/1.0.0": {
+    "DAOMysql/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

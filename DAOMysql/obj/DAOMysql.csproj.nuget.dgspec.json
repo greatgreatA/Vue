@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\Vue\\DAOMysql\\DAOMysql.csproj": {}
+    "D:\\C#\\Vue\\DAOMysql\\DAOmysql.csproj": {}
   },
   "projects": {
-    "D:\\C#\\Vue\\DAOMysql\\DAOMysql.csproj": {
+    "D:\\C#\\Vue\\DAOMysql\\DAOmysql.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\Vue\\DAOMysql\\DAOMysql.csproj",
-        "projectName": "DAOMysql",
-        "projectPath": "D:\\C#\\Vue\\DAOMysql\\DAOMysql.csproj",
+        "projectUniqueName": "D:\\C#\\Vue\\DAOMysql\\DAOmysql.csproj",
+        "projectName": "DAOmysql",
+        "projectPath": "D:\\C#\\Vue\\DAOMysql\\DAOmysql.csproj",
         "packagesPath": "C:\\Users\\GreatA\\.nuget\\packages\\",
         "outputPath": "D:\\C#\\Vue\\DAOMysql\\obj\\",
         "projectStyle": "PackageReference",
@@ -51,6 +51,14 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "System.Data.Common": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Data.OleDb": {
+              "target": "Package",
+              "version": "[4.7.0, )"
             }
           },
           "imports": [

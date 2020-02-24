@@ -44,6 +44,7 @@ D:\C#\Vue\bin\Debug\MySql.Data.dll
 D:\C#\Vue\bin\Debug\MySql.Data.EntityFramework.dll
 D:\C#\Vue\bin\Debug\Renci.SshNet.dll
 D:\C#\Vue\bin\Debug\Ubiety.Dns.Core.dll
+D:\C#\Vue\bin\Debug\Mysql.dll
 D:\C#\Vue\bin\Debug\Controleur.pdb
 D:\C#\Vue\bin\Debug\Modele.pdb
 D:\C#\Vue\bin\Debug\EntityFramework.xml
@@ -52,6 +53,7 @@ D:\C#\Vue\bin\Debug\Google.Protobuf.xml
 D:\C#\Vue\bin\Debug\MySql.Data.xml
 D:\C#\Vue\bin\Debug\MySql.Data.EntityFramework.xml
 D:\C#\Vue\bin\Debug\Renci.SshNet.xml
+D:\C#\Vue\bin\Debug\Mysql.pdb
 D:\C#\Vue\bin\Debug\fr\EntityFramework.resources.dll
 D:\C#\Vue\bin\Debug\fr\EntityFramework.SqlServer.resources.dll
 D:\C#\Vue\obj\Debug\Vue.csprojAssemblyReference.cache
@@ -62,5 +64,4 @@ D:\C#\Vue\obj\Debug\Vue.csproj.GenerateResource.cache
 D:\C#\Vue\obj\Debug\Vue.csproj.CopyComplete
 D:\C#\Vue\obj\Debug\Vue.exe
 D:\C#\Vue\obj\Debug\Vue.pdb
-D:\C#\Vue\bin\Debug\DAOAccess.dll
-D:\C#\Vue\bin\Debug\DAOAccess.pdb
+D:\C#\Vue\bin\Debug\Mysql.dll.config

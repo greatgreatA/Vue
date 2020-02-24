@@ -1,7 +1,7 @@
 ﻿using Modele;
 using System;
 using System.Collections.Generic;
-using DAOAccess;
+using DAOMysql;
 
 namespace Controleur
 {

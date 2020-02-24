@@ -42,3 +42,14 @@ D:\C#\CSharpe\Vue\DAOMysql\obj\Debug\netstandard2.0\DAOMysql.AssemblyInfo.cs
 D:\C#\CSharpe\Vue\DAOMysql\obj\Debug\netstandard2.0\DAOMysql.csproj.CopyComplete
 D:\C#\CSharpe\Vue\DAOMysql\obj\Debug\netstandard2.0\DAOMysql.dll
 D:\C#\CSharpe\Vue\DAOMysql\obj\Debug\netstandard2.0\DAOMysql.pdb
+D:\C#\Vue\DAOMysql\bin\Debug\netstandard2.0\DAOMysql.deps.json
+D:\C#\Vue\DAOMysql\bin\Debug\netstandard2.0\DAOMysql.dll
+D:\C#\Vue\DAOMysql\bin\Debug\netstandard2.0\DAOMysql.pdb
+D:\C#\Vue\DAOMysql\bin\Debug\netstandard2.0\Modele.dll
+D:\C#\Vue\DAOMysql\bin\Debug\netstandard2.0\Modele.pdb
+D:\C#\Vue\DAOMysql\obj\Debug\netstandard2.0\DAOMysql.csprojAssemblyReference.cache
+D:\C#\Vue\DAOMysql\obj\Debug\netstandard2.0\DAOMysql.AssemblyInfoInputs.cache
+D:\C#\Vue\DAOMysql\obj\Debug\netstandard2.0\DAOMysql.AssemblyInfo.cs
+D:\C#\Vue\DAOMysql\obj\Debug\netstandard2.0\DAOMysql.csproj.CopyComplete
+D:\C#\Vue\DAOMysql\obj\Debug\netstandard2.0\DAOMysql.dll
+D:\C#\Vue\DAOMysql\obj\Debug\netstandard2.0\DAOMysql.pdb

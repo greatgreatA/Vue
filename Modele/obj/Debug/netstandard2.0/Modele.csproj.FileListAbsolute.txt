@@ -29,3 +29,10 @@ D:\C#\CSharpe\Vue\Modele\obj\Debug\netstandard2.0\Modele.AssemblyInfoInputs.cach
 D:\C#\CSharpe\Vue\Modele\obj\Debug\netstandard2.0\Modele.AssemblyInfo.cs
 D:\C#\CSharpe\Vue\Modele\obj\Debug\netstandard2.0\Modele.dll
 D:\C#\CSharpe\Vue\Modele\obj\Debug\netstandard2.0\Modele.pdb
+D:\C#\Vue\Modele\bin\Debug\netstandard2.0\Modele.deps.json
+D:\C#\Vue\Modele\bin\Debug\netstandard2.0\Modele.dll
+D:\C#\Vue\Modele\bin\Debug\netstandard2.0\Modele.pdb
+D:\C#\Vue\Modele\obj\Debug\netstandard2.0\Modele.AssemblyInfoInputs.cache
+D:\C#\Vue\Modele\obj\Debug\netstandard2.0\Modele.AssemblyInfo.cs
+D:\C#\Vue\Modele\obj\Debug\netstandard2.0\Modele.dll
+D:\C#\Vue\Modele\obj\Debug\netstandard2.0\Modele.pdb

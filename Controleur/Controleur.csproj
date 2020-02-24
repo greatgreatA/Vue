@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DAOAccess\DAOAccess.csproj" />
     <ProjectReference Include="..\Modele\Modele.csproj" />
+    <ProjectReference Include="..\Mysql\DAOMysql.csproj" />
   </ItemGroup>
 
 </Project>

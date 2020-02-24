@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 using MySql.Data.MySqlClient;
-using System.Data.OleDb;
 
-namespace DAOmysql
+namespace DAOMysql
+
 {
     public class BaseDao<T>
     {
@@ -21,7 +21,7 @@ namespace DAOmysql
         {
             string req = "DELETE FROM "+nomTable+" WHERE id="+id+";";
             maconx.openCx();
-            OleDbCommand cd = maconx.uneCommande(req);
+            MySqlCommand cd = maconx.commande(req);
             cd.ExecuteNonQuery();
             maconx.closeCx();
         }

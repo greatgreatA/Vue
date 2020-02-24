@@ -27,11 +27,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\C#\\Vue\\DAOAccess\\DAOAccess.csproj": {
-                "projectPath": "D:\\C#\\Vue\\DAOAccess\\DAOAccess.csproj"
-              },
               "D:\\C#\\Vue\\Modele\\Modele.csproj": {
                 "projectPath": "D:\\C#\\Vue\\Modele\\Modele.csproj"
+              },
+              "D:\\C#\\Vue\\Mysql\\DAOMysql.csproj": {
+                "projectPath": "D:\\C#\\Vue\\Mysql\\DAOMysql.csproj"
               }
             }
           }
@@ -64,26 +64,6 @@
           "warn": true,
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
-      }
-    },
-    "D:\\C#\\Vue\\DAOAccess\\DAOAccess.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\C#\\Vue\\DAOAccess\\DAOAccess.csproj",
-        "projectName": "DAOAccess",
-        "projectPath": "D:\\C#\\Vue\\DAOAccess\\DAOAccess.csproj",
-        "frameworks": {
-          "net472": {
-            "projectReferences": {
-              "D:\\C#\\Vue\\Modele\\Modele.csproj": {
-                "projectPath": "D:\\C#\\Vue\\Modele\\Modele.csproj"
-              }
-            }
-          }
-        }
-      },
-      "frameworks": {
-        "net472": {}
       }
     },
     "D:\\C#\\Vue\\Modele\\Modele.csproj": {
@@ -139,6 +119,26 @@
           "warn": true,
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "D:\\C#\\Vue\\Mysql\\DAOMysql.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\C#\\Vue\\Mysql\\DAOMysql.csproj",
+        "projectName": "DAOMysql",
+        "projectPath": "D:\\C#\\Vue\\Mysql\\DAOMysql.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\C#\\Vue\\Modele\\Modele.csproj": {
+                "projectPath": "D:\\C#\\Vue\\Modele\\Modele.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }

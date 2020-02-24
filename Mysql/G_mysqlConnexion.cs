@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.Common;
-using System.Data.OleDb;
+using MySql.Data.MySqlClient;
 
-namespace DAOmysql
+namespace DAOMysql
+
 {
     public class G_mysqlConnexion
     {
@@ -17,7 +18,7 @@ namespace DAOmysql
         private string database = "gestioncomptes";
         private string connexionString="";
 
-        private OleDbConnection conx = null;
+        private MySqlConnection conx = null;
 
         private static readonly object mylock = new object();
 
@@ -53,7 +54,7 @@ namespace DAOmysql
             {
                 this.conx.Open();
             }
-            catch (OleDbException ex)
+            catch (MySqlException ex)
             {
 
                 throw ex;
@@ -66,22 +67,22 @@ namespace DAOmysql
             {
                 this.conx.Close();
             }
-            catch (OleDbException ex)
+            catch (MySqlException ex)
             {
 
-                throw;
+                throw ex;
             }
         }
 
-        public OleDbCommand uneCommande(string requete)
+        public MySqlCommand commande(string requete)
         {
             try
             {
-                OleDbCommand c = new OleDbCommand(requete, conx);
+                MySqlCommand c = new MySqlCommand(requete, conx);
                 
                 return c;
             }
-            catch (OleDbException e)
+            catch (MySqlException e)
             {
                 throw e;
             }
@@ -96,12 +97,12 @@ namespace DAOmysql
         //Constructeur privé qui initialise la chaine de connexion ainsi que la connexion elle-même
         private G_mysqlConnexion()
         {
-            this.connexionString= "server="+this.server+";port="+this.port+";user id="+this.userId+";database="+this.database+";";
+            this.connexionString="server=" + this.server+";port="+this.port+";user id="+this.userId+";database="+this.database+";";
             try
             {
-                conx = new OleDbConnection(this.connexionString);
+                conx = new MySqlConnection(this.connexionString);
             }
-            catch (OleDbException ex)
+            catch (MySqlException ex)
             {
 
                 throw ex;
